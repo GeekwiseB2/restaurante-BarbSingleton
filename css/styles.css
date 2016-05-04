@@ -1,26 +1,106 @@
+.container-fluid {
+ padding: 0;
+}
+.navbar-default{
+background-color: transparent;
+border: none;
+}
+.navbar-collapse li {
+ background-color: rgba(93%, 93%, 93%, .2);
+}
+.navbar-right {
+ padding-right: 25px;
+}
+/*Carousel*/
 
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img {
- height:100vh;
+ height:70vh;
  width:100vw;
 }
+#carousel-example-generic .carousel-caption img {
+ width: 370px;
+ height: 350px;
+}
+
+/*Story*/
+
 #story h1{
   color: #F15a24;
   font-family: "Lobster", cursive;
   font-size: 80px;
   margin-bottom: 0;
-   text-shadow: 1px 1px 5px #000;
+  text-shadow: 1px 1px 5px #000;
 }
-#story h3{
-  color: #F15a24;
+#story h3 {
   font-family: "Raleway", sans-serif;;
   font-weight: 700;
   margin-top: 0;
   font-size: 26px;
 }
+.col-sm-6>p {
+ font-size: 13px;
+}
+#story #year {
+ font-family: 'Playfair Display', serif;
+ font-size:;
+ color: #ddd;
+ text-shadow: none;
+ z-index: -1;
+ position: absolute;
+ font-size: 200px;
+ font-weight: 700;
+}
 
+/*Review*/
 
-.navbar-default{
-background-color: transparent;
-border: none;
+#review {
+ background-image: url('../img/food_review.jpg');
+ height: 500px;
+ background-size: cover;
+ background-attachment: fixed;
+}
+#review .review-bg {
+ background-color: rgba(0, 0, 0, .4);
+ padding: 30px;
+ margin-top: 110px;
+}
+#review h1 {
+ color: #F15a24 ;
+ font-family: 'Lobster', cursive;
+ font-size: 70px;
+ text-align: center;
+}
+#review p {
+ font-family: 'Raleway', sans-serif;
+ font-size: 28px;
+ color: #fff;
+ text-align: center;
+}
+
+/*Menu*/
+
+#menu {
+ background-image: url('../img/black_linen.png');
+ min-height: 500px;
+}
+#menu .tab-pane {
+ background-color: #fff;
+ padding: 15px;
+}
+#menu h1{
+   text-align: center;
+   font-family: 'Lobster', cursive;
+   color: #fff;
+   font-size: 70px;
+   padding-bottom: 20px;
+}
+.tab-content{
+  padding-bottom: :75px;
+}
+/*Contact*/
+
+#contact {
+background-color: #F15a24 ;
+color: #fff;
 }
